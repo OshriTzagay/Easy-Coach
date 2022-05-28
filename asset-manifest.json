@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Easy-Coach/static/css/main.907b7efe.css",
+    "main.js": "/Easy-Coach/static/js/main.227e3709.js",
+    "static/js/787.57075642.chunk.js": "/Easy-Coach/static/js/787.57075642.chunk.js",
+    "static/media/cl_img.jpg": "/Easy-Coach/static/media/cl_img.f3bd545176df5b34b3ee.jpg",
+    "static/media/logo.svg": "/Easy-Coach/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Easy-Coach/index.html",
+    "main.907b7efe.css.map": "/Easy-Coach/static/css/main.907b7efe.css.map",
+    "main.227e3709.js.map": "/Easy-Coach/static/js/main.227e3709.js.map",
+    "787.57075642.chunk.js.map": "/Easy-Coach/static/js/787.57075642.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.907b7efe.css",
+    "static/js/main.227e3709.js"
+  ]
+}
