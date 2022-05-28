@@ -1,0 +1,57 @@
+.Wrapper{
+    display: flex;
+    justify-content:center ;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    position :relative;
+}
+.pitch{
+    width: 40%;
+    height: 70%;
+    transform: rotate(180deg);
+    opacity:0.8;
+    z-index: -1000;
+    
+    
+}
+.toggleBtn{
+    width: 180px;
+    height: 50px;
+    border-radius: 10ch;
+    cursor: pointer;
+    font-size:large;
+    background: #000;
+    color: white;
+    transition: 0.8s;
+}
+.toggleBtn:hover{
+    width: 210px;
+    
+}
+.Wembley{
+    width: 40%;
+    height: 60vh; 
+    position: absolute;
+}
+.CampNou{
+    
+width: 40%;
+height: 60vh; 
+
+}
+
+.spots{
+    width: 8px;
+    margin:auto;
+    height:8px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.goals{
+    width: 8px;
+    margin:auto;
+    height:8px;
+    border-radius: 50%;
+    background-color: red;
+}

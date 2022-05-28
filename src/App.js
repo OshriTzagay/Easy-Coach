@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import {CSVTable} from './Components/Csv-Parser-Compo/csv-parser'
+import PlayerChart from "./Components/Chart-Compo/chart";
+import GameMaps from "./Components/GameMap-Compo/fields-stats";
+import { Intro } from "./Components/GameMap-Compo/Intro";
+import { AppRouter } from "./AppRouter";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppRouter/>
   );
 }
 
