@@ -4,6 +4,7 @@ import React, { CSSProperties } from "react";
 import "./csv-parser.css";
 import { useCSVReader, jsonToCsv } from "react-papaparse";
 import { PlayerChart } from "../Chart-Compo/chart";
+import { Link } from "react-router-dom";
 const { Column, ColumnGroup } = Table;
 export const CSVTable = () => {
   const { CSVReader } = useCSVReader();
@@ -48,6 +49,10 @@ export const CSVTable = () => {
               <button type="button" onClick={DataSource}>
                 [2]Get data
               </button>
+              <br />
+
+              
+              <button><Link to="/mission2">Go to Mission 3</Link></button>
             </div>
           </>
         )}
@@ -78,8 +83,7 @@ export const CSVTable = () => {
         </ColumnGroup>
       </Table>
       <div>
-      <PlayerChart objs={objs} col={col} />
-
+        <PlayerChart objs={objs} col={col} />
       </div>
     </div>
   );
