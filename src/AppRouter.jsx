@@ -2,13 +2,13 @@ import { PlayerChart } from "./Components/Chart-Compo/chart";
 import { CSVTable } from "./Components/Csv-Parser-Compo/csv-parser";
 import GameMaps from "./Components/GameMap-Compo/fields-stats";
 import { Intro } from "./Components/GameMap-Compo/Intro";
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter,Routes,Route,HashRouter } from "react-router-dom";
 
 export const AppRouter = () => {
   
     return (
       <div className="App">
-        <BrowserRouter>
+        <HashRouter basename="/">
         
             <Routes>
               <Route exact path="/" element={<Intro/>}></Route>
@@ -20,7 +20,7 @@ export const AppRouter = () => {
   
             </Routes>
   
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   };
