@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
 }
@@ -8,13 +8,13 @@ h1{
     font-family: 'Monoton', cursive;
 }
 .intro-bg {
-    width: 75%;
+    width: 70%;
   height: 100%;
   background-image: url(../../../public/imgs/cl_img.jpg);
 }
 
 .go-to-mission {
-  width: 25%;
+  width: 29%;
   height: 100%;
   background: rgba(0, 0, 0, 0.937);
   display: flex;
@@ -26,7 +26,7 @@ h1{
     height: 10%;
     border-radius: 10ch;
     font-size: large;
-    margin-top: 50vh;
+    margin-top: 20vh;
     cursor: pointer;
     background: rgba(0, 0, 255, 0.511);
   box-shadow: 3px 3px 3px white;
@@ -37,8 +37,4 @@ h1{
 .missionBtn:hover{
     width: 300px;
     font-size: x-large;
-}
-
-.wrap-div{
-    margin-top: -60px;
 }
