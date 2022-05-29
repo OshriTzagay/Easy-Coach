@@ -41,7 +41,7 @@ export const CSVTable = () => {
       >
         {({ getRootProps }) => (
           <>
-            <div>
+            <div className="buttonsDiv">
               <button type="button" {...getRootProps()}>
                 [1]Browse file
               </button>
@@ -82,7 +82,8 @@ export const CSVTable = () => {
           })}
         </ColumnGroup>
       </Table>
-      <div>
+      
+      <div className="playersCharts">
         <PlayerChart objs={objs} col={col} />
       </div>
     </div>

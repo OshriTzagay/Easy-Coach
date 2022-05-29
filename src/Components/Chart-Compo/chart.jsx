@@ -36,13 +36,13 @@ export const PlayerChart = ({objs,col}) => {
   };
   
   return (
-    <div className="app">
+    <div>
       <button onClick={func}>Get Chart Info</button>
       <div className="row">
         <div className="mixed-chart">
 
 {col.map((key,i) => {
- const chart= {
+  const chart= {
     options: {
       chart: {
         id: "basic-bar",
